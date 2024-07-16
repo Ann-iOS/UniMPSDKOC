@@ -1,0 +1,48 @@
+PODS:
+  - lame (1.2.2)
+  - UniMPPlugin (0.1.0):
+    - UniMPPlugin/Components (= 0.1.0)
+  - UniMPPlugin/Components (0.1.0):
+    - UniMPPlugin/Components/Accelerometer (= 0.1.0)
+    - UniMPPlugin/Components/Audio (= 0.1.0)
+    - UniMPPlugin/Components/Barcode (= 0.1.0)
+    - UniMPPlugin/Components/Bluetooth (= 0.1.0)
+    - UniMPPlugin/Components/Camera (= 0.1.0)
+    - UniMPPlugin/Components/Location (= 0.1.0)
+    - UniMPPlugin/Components/SQLite (= 0.1.0)
+    - UniMPPlugin/Components/Video (= 0.1.0)
+    - UniMPPlugin/Components/Zip (= 0.1.0)
+  - UniMPPlugin/Components/Accelerometer (0.1.0)
+  - UniMPPlugin/Components/Audio (0.1.0):
+    - lame
+  - UniMPPlugin/Components/Barcode (0.1.0)
+  - UniMPPlugin/Components/Bluetooth (0.1.0)
+  - UniMPPlugin/Components/Camera (0.1.0)
+  - UniMPPlugin/Components/Location (0.1.0)
+  - UniMPPlugin/Components/SQLite (0.1.0)
+  - UniMPPlugin/Components/Video (0.1.0)
+  - UniMPPlugin/Components/Zip (0.1.0)
+  - UniMPSDKOC (0.1.0)
+
+DEPENDENCIES:
+  - UniMPPlugin (from `../../UniMPPlugin`)
+  - UniMPSDKOC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - lame
+
+EXTERNAL SOURCES:
+  UniMPPlugin:
+    :path: "../../UniMPPlugin"
+  UniMPSDKOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lame: 40ead9ec43927bcf3700457d96ccc183096c65cc
+  UniMPPlugin: 9656d67df9a0d22a671b70f48a832d0a90c45cfa
+  UniMPSDKOC: 32eb517ca8a53a7fe1d7baf012abdf7c6b7b9792
+
+PODFILE CHECKSUM: c6cdeee08b00c195f358b865e519bd5f64910c72
+
+COCOAPODS: 1.14.3

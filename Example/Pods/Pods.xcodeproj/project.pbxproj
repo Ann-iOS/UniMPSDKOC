@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43436777DDB168A945AE6DA327D6B859 /* lame */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1F47A5DD855E84A09BF50FDCF6D6075 /* Build configuration list for PBXAggregateTarget "lame" */;
+			buildPhases = (
+				5F59183AF31C8BF3C843F190D029D873 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				C364F17EF3B4FB493361B43EC8FDCCD7 /* PBXTargetDependency */,
+			);
+			name = lame;
+		};
+		87278E7044503D736AF2574987DDFB5E /* UniMPSDKOC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9BAB11A469FCA1AE27D528F39D4858D /* Build configuration list for PBXAggregateTarget "UniMPSDKOC" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E0FB4A9894B5A0A57AAA23A6132F8662 /* PBXTargetDependency */,
+			);
+			name = UniMPSDKOC;
+		};
+		9C47CB2FCFDDA8140BFFE33DC7C80E44 /* UniMPPlugin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B4562A67C3875116BF336C2749C2CC8 /* Build configuration list for PBXAggregateTarget "UniMPPlugin" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9DD01507351B1F7C41A70F4CD65CBF9C /* PBXTargetDependency */,
+				DD795435CA86B02125B8F120D54BD617 /* PBXTargetDependency */,
+				94DBC003985E7638D1216DF72B4E5C33 /* PBXTargetDependency */,
+			);
+			name = UniMPPlugin;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CF952D3A7361F59500F9E861B6CED41 /* unincomponents.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3A710D8FE5BB771FFE78D068CAB88D0 /* unincomponents.ttf */; };
+		1C71EB9D0B8FF31A0E44B2D950FD771E /* DCTZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09E8F9732009C422EC21DAB383EA3385 /* DCTZImagePickerController.bundle */; };
+		21D003011F664E9B6BA0D170955BAB56 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F7E7CBCA31BDBC8C2B0257384223766D /* PrivacyInfo.xcprivacy */; };
+		2C68393D94B4EDC681579445148CFCAE /* __uniappes6.js in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B577FA2898D123E8A70CD29CE67EE /* __uniappes6.js */; };
+		2F9E35A0A8E7F15DEE760054A040F5BC /* PandoraApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D05DFD31C4C0CE5B6528382C9FC61C35 /* PandoraApi.bundle */; };
+		3603AC1284217565676F827B7B6D2C08 /* Pods-UniMPSDKOC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9329E307AB0127EAFE6F6EDEA95DBB /* Pods-UniMPSDKOC_Example-dummy.m */; };
+		5F81A1C1C58C8014EE57230F5F7A4A79 /* DCSVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99517C5794ED848C847E5C7E6B877E36 /* DCSVProgressHUD.bundle */; };
+		7EA5AE6BFE55006974DBAF2929546C1E /* weexUniJs.js in Resources */ = {isa = PBXBuildFile; fileRef = 67089214DDECC73712AA2F9F18EBB8B4 /* weexUniJs.js */; };
+		8FA3BF89792F79083F5031C270FD9BD0 /* uni-jsframework.js in Resources */ = {isa = PBXBuildFile; fileRef = EB193EFA4E357BD8C5F7C2C0D3D54939 /* uni-jsframework.js */; };
+		96D81C32EFE9208D73F64EEB898928FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9BD3E59DF1BB393D13C0F8554018D891 /* DCMediaEditingController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA7355C92C21A23178F7F42034FDC694 /* DCMediaEditingController.bundle */; };
+		C208B54AA234AB97E9FCC80FD6B23904 /* uni-jsframework-vue3.js in Resources */ = {isa = PBXBuildFile; fileRef = 57390BDB5EA97750B0F548B9BBF1A507 /* uni-jsframework-vue3.js */; };
+		D30F518513D2783F6108314FFD7106CC /* weex-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = F88F818A77A061A10676C90A9767C527 /* weex-polyfill.js */; };
+		DB2ACE5ABD033D6ABDFF15183FAC41D0 /* DCPGVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02397DBD83D839BC7AEF4CBFAECA85B0 /* DCPGVideo.bundle */; };
+		E10DD06CBDA76FBB764EB095D1250B51 /* Pods-UniMPSDKOC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD917183EFBE33C0B7CD5784FE62D97E /* Pods-UniMPSDKOC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10262A75116FD37515AB2EC90D2C1EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C47CB2FCFDDA8140BFFE33DC7C80E44;
+			remoteInfo = UniMPPlugin;
+		};
+		2C0C2A9AE8700EBBBE3E37CF45DDD645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F267F822968052D54CE24AF7FBC114E1;
+			remoteInfo = "lame-apple_privacy";
+		};
+		5F6C596FA557147BE8A3341560482DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15716FD05FD7CE8A8E63AAD86CA09B71;
+			remoteInfo = "UniMPPlugin-CameraResources";
+		};
+		61D87E7D45D03A6F5B52CBD469DFD089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43436777DDB168A945AE6DA327D6B859;
+			remoteInfo = lame;
+		};
+		83581531FEFA2BBB437D8DB7249AB203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1404F8A90A2F1DEAD80D6761CD845C;
+			remoteInfo = "UniMPPlugin-VideoResources";
+		};
+		8DD5437518D2F3354BF633958C9651D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43436777DDB168A945AE6DA327D6B859;
+			remoteInfo = lame;
+		};
+		91E68D2F7985F394A07C886D117835E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CBA25B32FCDA72E56CE646DACC5F535;
+			remoteInfo = "UniMPSDKOC-UniMPSDKOCResource";
+		};
+		E0CB6604F981D67EC30986512ABDDA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87278E7044503D736AF2574987DDFB5E;
+			remoteInfo = UniMPSDKOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02397DBD83D839BC7AEF4CBFAECA85B0 /* DCPGVideo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DCPGVideo.bundle; path = UniMPPlugin/Video/DCPGVideo.bundle; sourceTree = "<group>"; };
+		028F519249E4492877F16CD28C4509FA /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		029C580995B3BCA741D0622E23777154 /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = UniMPSDKOC/Libs/liblibUI.a; sourceTree = "<group>"; };
+		02DD72FE549B8C467C3A2D082F6B0F3F /* ResourceBundle-apple_privacy-lame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-apple_privacy-lame-Info.plist"; sourceTree = "<group>"; };
+		04E086792105245B96F5ED946DA0BC06 /* liblibNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = UniMPSDKOC/Libs/liblibNavigator.a; sourceTree = "<group>"; };
+		053EB75FB4C7652154AE30B5597872EF /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		06637A73BD1A60895BECB3DFF673CD00 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		07EF94E21F4A6E3A05FFA5CD9D5FC23D /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		09D0FBE998B9F92D5BED8CE386A2D794 /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPConfiguration.h; path = UniMPSDKOC/Headers/DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		09E8F9732009C422EC21DAB383EA3385 /* DCTZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DCTZImagePickerController.bundle; path = UniMPPlugin/Camera/DCTZImagePickerController.bundle; sourceTree = "<group>"; };
+		0CF2742C00F323617159C505F5CC5CA3 /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		0D4669B1344023861151719CF74D725F /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		0F48157BB7402876E9E42143819D84EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1440802B0E13F87A1374EE6DBE0F9CAF /* DCUniMPInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPInstance.h; path = UniMPSDKOC/Headers/DCUniMPInstance.h; sourceTree = "<group>"; };
+		171F36D12C3F7496390641805BE12289 /* liblibIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibIO.a; path = UniMPSDKOC/Libs/liblibIO.a; sourceTree = "<group>"; };
+		1B0860860A2E9A9D10E012E4A8036E01 /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		1B45BA111A84A9F39F9C7BAE8795D221 /* Pods-UniMPSDKOC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniMPSDKOC_Example.modulemap"; sourceTree = "<group>"; };
+		1C72013079940267ACAA8B3A20A4FE08 /* liblibGeolocation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibGeolocation.a; path = UniMPPlugin/Location/liblibGeolocation.a; sourceTree = "<group>"; };
+		1E5D342342388D991403C979539EEEE1 /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		25AD264BD19E09ED45075E7F87201F82 /* liblibBlueTooth.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibBlueTooth.a; path = UniMPPlugin/Bluetooth/liblibBlueTooth.a; sourceTree = "<group>"; };
+		272F969F8DCEED7F65701725912F190C /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		27AAC6F3AD599F16229B84239EB6F3DF /* WXRichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+		281D0C52AA051B5EC510CD974DFE38DE /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		2A5BEBC72EF9DC4CEB3CBDD31C63FBE3 /* WXApmForInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
+		2BFBB933DD7CAF3875EA27DC1B8D63CA /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
+		31A2CB97127A9B96037CE76BAC2A7D20 /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		35B8F33C19F63E988E781CF631B8EAA5 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPSDKEngine.h; path = UniMPSDKOC/Headers/DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		3819530B0D7CD2A4658990563C23BD0E /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		394A63E077E4D58C954137B281882E73 /* UniMPSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UniMPSDK.h; path = UniMPSDKOC/Headers/UniMPSDK.h; sourceTree = "<group>"; };
+		39AB972FE69C039EA6F14F0288703E78 /* lame.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = lame.xcframework; sourceTree = "<group>"; };
+		39BFFDEBF4E046CE6277872F53C37323 /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		3B724B84E047D3BA639ADF131D9F4003 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		3B7443B5221C1EFB47FEF0C5B25F55AB /* liblibBarcode.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibBarcode.a; path = UniMPPlugin/Barcode/liblibBarcode.a; sourceTree = "<group>"; };
+		400D51245C10D56FA14DC86BFED69FA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		40370C2C91C847C90E27C45AAA8497EC /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = UniMPPlugin/Video/Masonry.framework; sourceTree = "<group>"; };
+		406238D5144E4D2954185580E29C4331 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		423FF12285021B0467FCB9230EA84671 /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		44B2441BD706C498163C7BC8DA7B5AFB /* lame-apple_privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "lame-apple_privacy"; path = apple_privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		453C2ABEE800B4A24AE8FD44E60AB924 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		474C1324FA7463B3AB15E90B7D60471A /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		491FE4DBE5F659F9B2903E3A497ABFDA /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		4A8586F6A0DE0FCBDA83E9A7EA7ABEF7 /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		4C8E9058247457AC004807466DF7CD89 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		4FB0D9D8248F707F6F489105D02A41AC /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		5010F524474EFC96D1741B064511B3C8 /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		521E4152367EF6D3D06EFA22B42AC985 /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		557085A424D23F90E8F02F0C45B6837F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		55985902579E0AB4974A506AEAF7BAA1 /* Pods-UniMPSDKOC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniMPSDKOC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56242142E92FC144B237DA676A7AD3DA /* UniMPPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniMPPlugin.debug.xcconfig; sourceTree = "<group>"; };
+		57390BDB5EA97750B0F548B9BBF1A507 /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework-vue3.js"; path = "UniMPSDKOC/Resources/uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		57F48DCB06CE6FE0149B4B933989C63E /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		588F05A3D58C96DFE6891A2EDEC001C5 /* UniMPPlugin-CameraResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UniMPPlugin-CameraResources"; path = CameraResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FC63D394CF420C7244601B968D81A4 /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		5BDAD7577AABCEF365A27C70928EBBC1 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		5C80F5BCD98C477B47E5341B23D0301F /* UniMPSDKOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UniMPSDKOC.h; path = UniMPSDKOC/Headers/UniMPSDKOC.h; sourceTree = "<group>"; };
+		5E1D403002C04A02B0AB8580454F20CB /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		5E63404B8D03E7A73D6A0A8F52A6FF28 /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		5E91CEA28FF2D1EBAD63D185EF868A4D /* WXApmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
+		60C1B83DA1B326AF6E2F16AB183561CE /* liblibVideo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibVideo.a; path = UniMPPlugin/Video/liblibVideo.a; sourceTree = "<group>"; };
+		61A140482A44DEE2515B125618851350 /* Pods-UniMPSDKOC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniMPSDKOC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61EDBC42B82D28FFD789CF95602D23ED /* JSContext+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
+		67089214DDECC73712AA2F9F18EBB8B4 /* weexUniJs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = weexUniJs.js; path = UniMPSDKOC/Resources/weexUniJs.js; sourceTree = "<group>"; };
+		671707D266A2F8CA36BFE2D964F8F47B /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		6CFA4D775B8C7F022C9082BD401FB808 /* liblibStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibStorage.a; path = UniMPSDKOC/Libs/liblibStorage.a; sourceTree = "<group>"; };
+		71EB9DF4D9CFEDA3C14B1C4CC836489F /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		725E1FA0A45C1CA8D16D7B7D559A6444 /* DCUniVideoPublic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCUniVideoPublic.framework; path = UniMPPlugin/Video/DCUniVideoPublic.framework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B6BA64007CB8C996E852AABE07E66D /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		765BD521BAE2ADD25577EA974A1B15C2 /* Pods-UniMPSDKOC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniMPSDKOC_Example-Info.plist"; sourceTree = "<group>"; };
+		7866641ED48B62B024629A283BDD9F45 /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		78A88103DCC392E1432FBB242AE9CBF8 /* UniMPPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniMPPlugin.release.xcconfig; sourceTree = "<group>"; };
+		7A135EB9B0C56221D27F6EE255216AF4 /* lame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lame.release.xcconfig; sourceTree = "<group>"; };
+		7A2481E8F29061E19364A86576759359 /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		7A7FD408ECF21AA2DC91D35AD4F2D12C /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		7BCFE32890B78DC74D82CEDE3FDB8C06 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		7D9329E307AB0127EAFE6F6EDEA95DBB /* Pods-UniMPSDKOC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniMPSDKOC_Example-dummy.m"; sourceTree = "<group>"; };
+		7FB56DBBA629284B89116C1B568591E4 /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPMenuActionSheetStyle.h; path = UniMPSDKOC/Headers/DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		815305A0557DF54DE93016F66AD27086 /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		8338CA93C129EE2B9C9C69A21DF637AB /* UniMPPlugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UniMPPlugin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83B3BEF73FEDDB9D26D6770DA5325DBA /* Pods-UniMPSDKOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniMPSDKOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8640E079CBCA18EBBB787D071755A879 /* Pods-UniMPSDKOC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UniMPSDKOC_Example-resources.sh"; sourceTree = "<group>"; };
+		86A9D86A54E3EB4AC9DA48D02A39AC02 /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		8AC2CD1A005BDDADF9FCD1DB2F0F1B10 /* Pods-UniMPSDKOC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniMPSDKOC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B97F4DF3826BAF314E8105E4C280E8D /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		8DB0CE107F1288432E97708A128C2A66 /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		8DDBFEBDD612CAB8C81F591BDAC3A7E1 /* DCUniMPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPError.h; path = UniMPSDKOC/Headers/DCUniMPError.h; sourceTree = "<group>"; };
+		8F5FF81253592B514B97DD9D76E5EF7B /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "UniMPPlugin/Audio/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		91DD8F3D8348776F75DACC234F5948AD /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = UniMPSDKOC/Libs/libcoreSupport.a; sourceTree = "<group>"; };
+		92690CB2A3FF3C2E2FFD3700ED3F4347 /* liblibNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = UniMPSDKOC/Libs/liblibNativeObj.a; sourceTree = "<group>"; };
+		99517C5794ED848C847E5C7E6B877E36 /* DCSVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DCSVProgressHUD.bundle; path = UniMPPlugin/Video/DCSVProgressHUD.bundle; sourceTree = "<group>"; };
+		99BEC2943ED4CD928FE24C0174A3F360 /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		9AF27ECFFF6C9EB0066B10FFC5591D48 /* ResourceBundle-CameraResources-UniMPPlugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CameraResources-UniMPPlugin-Info.plist"; sourceTree = "<group>"; };
+		9D3B577FA2898D123E8A70CD29CE67EE /* __uniappes6.js */ = {isa = PBXFileReference; includeInIndex = 1; name = __uniappes6.js; path = UniMPSDKOC/Resources/__uniappes6.js; sourceTree = "<group>"; };
+		9D73C6477FBE36D7DBB99622D47BE65C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0693F78512E038A64C1EB195DB156E /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		9F47ABB0847929718DF89C11E99D8B3E /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		9FFC7979D545E624C37501D1F1710222 /* UniMPSDKOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UniMPSDKOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3878A64297D181B177D67A01B45F644 /* WXExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
+		A4D4DDBDD407DEEF77016163C9C65FFE /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
+		A5B4397ACDA68E0254C57B3705BBC068 /* DCUniRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCUniRecord.framework; path = UniMPPlugin/Audio/DCUniRecord.framework; sourceTree = "<group>"; };
+		A6D430AF4BAAFC81C2EDD6439A400E44 /* UniMPSDKOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniMPSDKOC.release.xcconfig; sourceTree = "<group>"; };
+		A9612823B71CBD7BF9FFA34A4652FDA9 /* ResourceBundle-VideoResources-UniMPPlugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VideoResources-UniMPPlugin-Info.plist"; sourceTree = "<group>"; };
+		ABA0BDD8087948D4796ADD5D8D05E7A4 /* libuchardet.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libuchardet.a; path = UniMPPlugin/Barcode/libuchardet.a; sourceTree = "<group>"; };
+		ABDA54EDDFF425F468B75DB20F468844 /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = UniMPSDKOC/Libs/liblibPDRCore.a; sourceTree = "<group>"; };
+		B144B48215AB569DFC32A19EEEB73080 /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = UniMPSDKOC/Libs/libSDWebImage.a; sourceTree = "<group>"; };
+		B27AD01B34D80858BCE60E4FF9F74AAA /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		BA7355C92C21A23178F7F42034FDC694 /* DCMediaEditingController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DCMediaEditingController.bundle; path = UniMPPlugin/Camera/DCMediaEditingController.bundle; sourceTree = "<group>"; };
+		BCC72F09A291DBAD78D95563058FDE9D /* liblibNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = UniMPSDKOC/Libs/liblibNativeUI.a; sourceTree = "<group>"; };
+		BD917183EFBE33C0B7CD5784FE62D97E /* Pods-UniMPSDKOC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniMPSDKOC_Example-umbrella.h"; sourceTree = "<group>"; };
+		BDA7E35FEA83399A04F835C056A27E28 /* UniMPPlugin-VideoResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UniMPPlugin-VideoResources"; path = VideoResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE9B0E165324276816402654497CD84 /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		C18C3006EE57ACAFDC31E8A4D712FFD5 /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		C5F17A4202F2C1C0AC853CE112F51088 /* liblibAccelerometer.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibAccelerometer.a; path = UniMPPlugin/Accelerometer/liblibAccelerometer.a; sourceTree = "<group>"; };
+		C6006A3B8CC7EC3B6BEFAA6407D3B5C2 /* liblibCamera.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibCamera.a; path = UniMPPlugin/Camera/liblibCamera.a; sourceTree = "<group>"; };
+		C8E760E9CCAA979C4EA85CC228C5E6E4 /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		CC2117CE24AAA61D84002361C397433E /* WeexProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
+		CE6E3F4E8D86C7BBCBD5A05ABEF03BAD /* lame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lame.debug.xcconfig; sourceTree = "<group>"; };
+		D05DFD31C4C0CE5B6528382C9FC61C35 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PandoraApi.bundle; path = UniMPSDKOC/Resources/PandoraApi.bundle; sourceTree = "<group>"; };
+		D074360F002DE619B3E87451B5AE0D40 /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFrameworkWithSSL.framework; path = UniMPPlugin/Video/IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
+		D1BC67EE54FC165F6DF75F946751FD0A /* UniMPSDKOC-UniMPSDKOCResource */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UniMPSDKOC-UniMPSDKOCResource"; path = UniMPSDKOCResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D509E49872E490ACC6F19F1E5FB72159 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		D6112604C9DD4D3D0FAF5C237960DB83 /* flex_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
+		D68EA1D4C50E5E9C166E866CB61BD7B8 /* UniPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
+		DAFDE549FDEC012258186C428EE81945 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		DBBBB0C900CED22B06E17CB7D9323D3E /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		DD07751ACE874AC8AE231BABAEC45667 /* Pods-UniMPSDKOC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UniMPSDKOC_Example"; path = Pods_UniMPSDKOC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBE1963161E0CAFCA5597738C393651 /* UniMPSDKOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UniMPSDKOC.debug.xcconfig; sourceTree = "<group>"; };
+		DE24758DF1410EA8682CDC1DD34ED032 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		E10904BF786620935C433988FF2E6D7C /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		E2DD7F5C1BE4ECA045B177E17808C658 /* liblibMedia.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibMedia.a; path = UniMPPlugin/Audio/liblibMedia.a; sourceTree = "<group>"; };
+		E4C11BA58340DE7D53D70E51903337A4 /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		E59F3E80333FAA54C26D4167F0440F6B /* lame-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "lame-xcframeworks.sh"; sourceTree = "<group>"; };
+		E9D01401A7F4BA24DE4FC59A4635BA0D /* liblibWeex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibWeex.a; path = UniMPSDKOC/Libs/liblibWeex.a; sourceTree = "<group>"; };
+		EA126BA150ED5D0BAC9735AA34AE457D /* libDCUniBarcode.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDCUniBarcode.a; path = UniMPPlugin/Barcode/libDCUniBarcode.a; sourceTree = "<group>"; };
+		EA553D252DF54AE97B7F0FDD0B6F35A2 /* libDCUniZXing.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDCUniZXing.a; path = UniMPPlugin/Barcode/libDCUniZXing.a; sourceTree = "<group>"; };
+		EB193EFA4E357BD8C5F7C2C0D3D54939 /* uni-jsframework.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework.js"; path = "UniMPSDKOC/Resources/uni-jsframework.js"; sourceTree = "<group>"; };
+		EF0AD7CBAB407B183BE2E06DA8ABEB53 /* liblibZip.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibZip.a; path = UniMPPlugin/Zip/liblibZip.a; sourceTree = "<group>"; };
+		F0D9E690F88A5B49D630AE11B3F7D0FE /* liblibSqlite.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibSqlite.a; path = UniMPPlugin/SQLite/liblibSqlite.a; sourceTree = "<group>"; };
+		F191AAAE09AA1BAC28D22CBA9E641B8C /* ResourceBundle-UniMPSDKOCResource-UniMPSDKOC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UniMPSDKOCResource-UniMPSDKOC-Info.plist"; sourceTree = "<group>"; };
+		F386B508A9B7DCA84F3E247A5127D038 /* DCUniMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMP.h; path = UniMPSDKOC/Headers/DCUniMP.h; sourceTree = "<group>"; };
+		F3A710D8FE5BB771FFE78D068CAB88D0 /* unincomponents.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = unincomponents.ttf; path = UniMPSDKOC/Resources/unincomponents.ttf; sourceTree = "<group>"; };
+		F4FD220F21D18E51C6C46113AC89F2D6 /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		F63EF23B9349C9837CBC2E1412CED025 /* style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		F7E7CBCA31BDBC8C2B0257384223766D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F88F818A77A061A10676C90A9767C527 /* weex-polyfill.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "weex-polyfill.js"; path = "UniMPSDKOC/Resources/weex-polyfill.js"; sourceTree = "<group>"; };
+		F9246D59D6A84E81384061AACD8A8669 /* layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
+		FC9BF997BD8926D28FD4019232616183 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = UniMPSDKOC/Libs/storage.framework; sourceTree = "<group>"; };
+		FCBA6AD06A7BC6D08E6E94C24C5D8795 /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		FE745C3C92E35FFD54DB046C5E67AC97 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C8186E81736C55CDA784E516168529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300AC45DE074466D68F374110AF24ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD7150E4AC5074E199994FD0BD1117E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D81C32EFE9208D73F64EEB898928FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C627E51D2FB02EA3C84087616B7549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2917E45330901DE77094AC02DEF00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CAB9182C0BD871CEF4EA90232713AE /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				02397DBD83D839BC7AEF4CBFAECA85B0 /* DCPGVideo.bundle */,
+				99517C5794ED848C847E5C7E6B877E36 /* DCSVProgressHUD.bundle */,
+				89DD28946C1F9DBB09CA620313B44AEB /* Frameworks */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		06ADA787D89304A398E10192628E8C6F /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				8C67A552DF10ACFA8BC240471A27FDE4 /* Frameworks */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		06D53858D06D56E28DCFBA8F3BB07621 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				BA7355C92C21A23178F7F42034FDC694 /* DCMediaEditingController.bundle */,
+				09E8F9732009C422EC21DAB383EA3385 /* DCTZImagePickerController.bundle */,
+				3BA57322C1DB6BE999C5C9C21A2BAFDA /* Frameworks */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		0F36D8370834651FC811DDA386927BAE /* UniMPPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				8C08043B04BACBA6CF900F114B56B3DE /* Components */,
+				225A9841328000C9670253E7D386CE3B /* Pod */,
+				9B5960B531074C1748C4E3C33EEAADF2 /* Support Files */,
+			);
+			name = UniMPPlugin;
+			path = ../../../UniMPPlugin;
+			sourceTree = "<group>";
+		};
+		1431A0EA79289634B4BE4C982F6D90B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25AD264BD19E09ED45075E7F87201F82 /* liblibBlueTooth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F0CFCB47512103BF7BCBE67D336DA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F191AAAE09AA1BAC28D22CBA9E641B8C /* ResourceBundle-UniMPSDKOCResource-UniMPSDKOC-Info.plist */,
+				DDBE1963161E0CAFCA5597738C393651 /* UniMPSDKOC.debug.xcconfig */,
+				A6D430AF4BAAFC81C2EDD6439A400E44 /* UniMPSDKOC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UniMPSDKOC";
+			sourceTree = "<group>";
+		};
+		225A9841328000C9670253E7D386CE3B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				400D51245C10D56FA14DC86BFED69FA6 /* LICENSE */,
+				9D73C6477FBE36D7DBB99622D47BE65C /* README.md */,
+				8338CA93C129EE2B9C9C69A21DF637AB /* UniMPPlugin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25426B9B1012D4F393D5746F8BC801F6 /* Pods-UniMPSDKOC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1B45BA111A84A9F39F9C7BAE8795D221 /* Pods-UniMPSDKOC_Example.modulemap */,
+				61A140482A44DEE2515B125618851350 /* Pods-UniMPSDKOC_Example-acknowledgements.markdown */,
+				8AC2CD1A005BDDADF9FCD1DB2F0F1B10 /* Pods-UniMPSDKOC_Example-acknowledgements.plist */,
+				7D9329E307AB0127EAFE6F6EDEA95DBB /* Pods-UniMPSDKOC_Example-dummy.m */,
+				765BD521BAE2ADD25577EA974A1B15C2 /* Pods-UniMPSDKOC_Example-Info.plist */,
+				8640E079CBCA18EBBB787D071755A879 /* Pods-UniMPSDKOC_Example-resources.sh */,
+				BD917183EFBE33C0B7CD5784FE62D97E /* Pods-UniMPSDKOC_Example-umbrella.h */,
+				83B3BEF73FEDDB9D26D6770DA5325DBA /* Pods-UniMPSDKOC_Example.debug.xcconfig */,
+				55985902579E0AB4974A506AEAF7BAA1 /* Pods-UniMPSDKOC_Example.release.xcconfig */,
+			);
+			name = "Pods-UniMPSDKOC_Example";
+			path = "Target Support Files/Pods-UniMPSDKOC_Example";
+			sourceTree = "<group>";
+		};
+		3BA57322C1DB6BE999C5C9C21A2BAFDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6006A3B8CC7EC3B6BEFAA6407D3B5C2 /* liblibCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B178C3437BAEDEB80ACEAF3E56FBEB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				99F7C0324EBF765451709EA7D7EAE03B /* Frameworks */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		4BAABA8F6DF84566EA2F52D2B3880983 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				BD96472939E963E373A1D9DAA2E09BB0 /* Frameworks */,
+			);
+			name = Accelerometer;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F09E9788E5F115DE334177ADE2A68F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25426B9B1012D4F393D5746F8BC801F6 /* Pods-UniMPSDKOC_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		638356782B57AEC13AFF284765D4685D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0AD7CBAB407B183BE2E06DA8ABEB53 /* liblibZip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BF7F339F51FF848227A5D8F57C3715 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				638356782B57AEC13AFF284765D4685D /* Frameworks */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		7CE256F7B7EF85507D7AE2554450F0E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DD8F3D8348776F75DACC234F5948AD /* libcoreSupport.a */,
+				171F36D12C3F7496390641805BE12289 /* liblibIO.a */,
+				92690CB2A3FF3C2E2FFD3700ED3F4347 /* liblibNativeObj.a */,
+				BCC72F09A291DBAD78D95563058FDE9D /* liblibNativeUI.a */,
+				04E086792105245B96F5ED946DA0BC06 /* liblibNavigator.a */,
+				ABDA54EDDFF425F468B75DB20F468844 /* liblibPDRCore.a */,
+				6CFA4D775B8C7F022C9082BD401FB808 /* liblibStorage.a */,
+				029C580995B3BCA741D0622E23777154 /* liblibUI.a */,
+				E9D01401A7F4BA24DE4FC59A4635BA0D /* liblibWeex.a */,
+				B144B48215AB569DFC32A19EEEB73080 /* libSDWebImage.a */,
+				FC9BF997BD8926D28FD4019232616183 /* storage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8786009C2FA1783C0BE6337D2B903EE2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F26BBE3F2DCCFF83EB4BCA8748D7B461 /* Frameworks */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		89DD28946C1F9DBB09CA620313B44AEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725E1FA0A45C1CA8D16D7B7D559A6444 /* DCUniVideoPublic.framework */,
+				D074360F002DE619B3E87451B5AE0D40 /* IJKMediaFrameworkWithSSL.framework */,
+				60C1B83DA1B326AF6E2F16AB183561CE /* liblibVideo.a */,
+				40370C2C91C847C90E27C45AAA8497EC /* Masonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C08043B04BACBA6CF900F114B56B3DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4BAABA8F6DF84566EA2F52D2B3880983 /* Accelerometer */,
+				8786009C2FA1783C0BE6337D2B903EE2 /* Audio */,
+				B4F775E8A4764C06635877FCD91D0549 /* Barcode */,
+				DB13EC92BBAF0A54C7A4502F9B70434F /* Bluetooth */,
+				06D53858D06D56E28DCFBA8F3BB07621 /* Camera */,
+				45B178C3437BAEDEB80ACEAF3E56FBEB /* Location */,
+				06ADA787D89304A398E10192628E8C6F /* SQLite */,
+				04CAB9182C0BD871CEF4EA90232713AE /* Video */,
+				72BF7F339F51FF848227A5D8F57C3715 /* Zip */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		8C67A552DF10ACFA8BC240471A27FDE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0D9E690F88A5B49D630AE11B3F7D0FE /* liblibSqlite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C36E61A4543F5F46FC356F99AE240B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF23BF3070E787D61316C1D5B5B7B160 /* lame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99F7C0324EBF765451709EA7D7EAE03B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C72013079940267ACAA8B3A20A4FE08 /* liblibGeolocation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B5960B531074C1748C4E3C33EEAADF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF27ECFFF6C9EB0066B10FFC5591D48 /* ResourceBundle-CameraResources-UniMPPlugin-Info.plist */,
+				A9612823B71CBD7BF9FFA34A4652FDA9 /* ResourceBundle-VideoResources-UniMPPlugin-Info.plist */,
+				56242142E92FC144B237DA676A7AD3DA /* UniMPPlugin.debug.xcconfig */,
+				78A88103DCC392E1432FBB242AE9CBF8 /* UniMPPlugin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../UniMPSDKOC/Example/Pods/Target Support Files/UniMPPlugin";
+			sourceTree = "<group>";
+		};
+		9C225CC2AAE0C527E453325053B4ECAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0F48157BB7402876E9E42143819D84EC /* LICENSE */,
+				557085A424D23F90E8F02F0C45B6837F /* README.md */,
+				9FFC7979D545E624C37501D1F1710222 /* UniMPSDKOC.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9E5A30C14C3B983512C7831E6E372995 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7CBCA31BDBC8C2B0257384223766D /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1876597909D50162096A35DA6D5D89E /* UniMPSDKOC */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B577FA2898D123E8A70CD29CE67EE /* __uniappes6.js */,
+				F386B508A9B7DCA84F3E247A5127D038 /* DCUniMP.h */,
+				09D0FBE998B9F92D5BED8CE386A2D794 /* DCUniMPConfiguration.h */,
+				8DDBFEBDD612CAB8C81F591BDAC3A7E1 /* DCUniMPError.h */,
+				1440802B0E13F87A1374EE6DBE0F9CAF /* DCUniMPInstance.h */,
+				7FB56DBBA629284B89116C1B568591E4 /* DCUniMPMenuActionSheetStyle.h */,
+				35B8F33C19F63E988E781CF631B8EAA5 /* DCUniMPSDKEngine.h */,
+				D05DFD31C4C0CE5B6528382C9FC61C35 /* PandoraApi.bundle */,
+				EB193EFA4E357BD8C5F7C2C0D3D54939 /* uni-jsframework.js */,
+				57390BDB5EA97750B0F548B9BBF1A507 /* uni-jsframework-vue3.js */,
+				394A63E077E4D58C954137B281882E73 /* UniMPSDK.h */,
+				5C80F5BCD98C477B47E5341B23D0301F /* UniMPSDKOC.h */,
+				F3A710D8FE5BB771FFE78D068CAB88D0 /* unincomponents.ttf */,
+				F88F818A77A061A10676C90A9767C527 /* weex-polyfill.js */,
+				67089214DDECC73712AA2F9F18EBB8B4 /* weexUniJs.js */,
+				7CE256F7B7EF85507D7AE2554450F0E3 /* Frameworks */,
+				9C225CC2AAE0C527E453325053B4ECAA /* Pod */,
+				20F0CFCB47512103BF7BCBE67D336DA7 /* Support Files */,
+				B1475A1AD4F4ACA463A5FC7DA91715F4 /* weexHeader */,
+			);
+			name = UniMPSDKOC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1475A1AD4F4ACA463A5FC7DA91715F4 /* weexHeader */ = {
+			isa = PBXGroup;
+			children = (
+				D6112604C9DD4D3D0FAF5C237960DB83 /* flex_enum.h */,
+				61EDBC42B82D28FFD789CF95602D23ED /* JSContext+Weex.h */,
+				F9246D59D6A84E81384061AACD8A8669 /* layout.h */,
+				3B724B84E047D3BA639ADF131D9F4003 /* NSObject+WXSwizzle.h */,
+				F63EF23B9349C9837CBC2E1412CED025 /* style.h */,
+				D68EA1D4C50E5E9C166E866CB61BD7B8 /* UniPluginProtocol.h */,
+				CC2117CE24AAA61D84002361C397433E /* WeexProtocol.h */,
+				7A2481E8F29061E19364A86576759359 /* WeexSDK.h */,
+				DBBBB0C900CED22B06E17CB7D9323D3E /* WXAComponent.h */,
+				474C1324FA7463B3AB15E90B7D60471A /* WXAnalyzerCenter.h */,
+				A4D4DDBDD407DEEF77016163C9C65FFE /* WXAnalyzerProtocol.h */,
+				2A5BEBC72EF9DC4CEB3CBDD31C63FBE3 /* WXApmForInstance.h */,
+				5E91CEA28FF2D1EBAD63D185EF868A4D /* WXApmProtocol.h */,
+				E4C11BA58340DE7D53D70E51903337A4 /* WXAppConfiguration.h */,
+				31A2CB97127A9B96037CE76BAC2A7D20 /* WXAppMonitorProtocol.h */,
+				671707D266A2F8CA36BFE2D964F8F47B /* WXBaseViewController.h */,
+				453C2ABEE800B4A24AE8FD44E60AB924 /* WXBridgeManager.h */,
+				57F48DCB06CE6FE0149B4B933989C63E /* WXBridgeProtocol.h */,
+				423FF12285021B0467FCB9230EA84671 /* WXComponent.h */,
+				9F0693F78512E038A64C1EB195DB156E /* WXComponent+Layout.h */,
+				2BFBB933DD7CAF3875EA27DC1B8D63CA /* WXComponentManager.h */,
+				5BDAD7577AABCEF365A27C70928EBBC1 /* WXConfigCenterProtocol.h */,
+				521E4152367EF6D3D06EFA22B42AC985 /* WXConvert.h */,
+				406238D5144E4D2954185580E29C4331 /* WXDebugTool.h */,
+				BEE9B0E165324276816402654497CD84 /* WXDefine.h */,
+				028F519249E4492877F16CD28C4509FA /* WXDisplayLinkManager.h */,
+				7866641ED48B62B024629A283BDD9F45 /* WXErrorView.h */,
+				DAFDE549FDEC012258186C428EE81945 /* WXEventModuleProtocol.h */,
+				A3878A64297D181B177D67A01B45F644 /* WXExceptionUtils.h */,
+				491FE4DBE5F659F9B2903E3A497ABFDA /* WXExtendCallNativeProtocol.h */,
+				D509E49872E490ACC6F19F1E5FB72159 /* WXImgLoaderProtocol.h */,
+				E10904BF786620935C433988FF2E6D7C /* WXIndicatorComponent.h */,
+				C18C3006EE57ACAFDC31E8A4D712FFD5 /* WXJSExceptionInfo.h */,
+				4C8E9058247457AC004807466DF7CD89 /* WXJSExceptionProtocol.h */,
+				F4FD220F21D18E51C6C46113AC89F2D6 /* WXJSFrameworkLoadProtocol.h */,
+				8DB0CE107F1288432E97708A128C2A66 /* WXListComponent.h */,
+				71EB9DF4D9CFEDA3C14B1C4CC836489F /* WXModalUIModule.h */,
+				5010F524474EFC96D1741B064511B3C8 /* WXModuleProtocol.h */,
+				C8E760E9CCAA979C4EA85CC228C5E6E4 /* WXMonitor.h */,
+				281D0C52AA051B5EC510CD974DFE38DE /* WXNavigationProtocol.h */,
+				815305A0557DF54DE93016F66AD27086 /* WXNetworkProtocol.h */,
+				7BCFE32890B78DC74D82CEDE3FDB8C06 /* WXPageEventNotifyEvent.h */,
+				8B97F4DF3826BAF314E8105E4C280E8D /* WXPrerenderManager.h */,
+				5E1D403002C04A02B0AB8580454F20CB /* WXRecyclerComponent.h */,
+				B27AD01B34D80858BCE60E4FF9F74AAA /* WXResourceLoader.h */,
+				5E63404B8D03E7A73D6A0A8F52A6FF28 /* WXResourceRequest.h */,
+				1E5D342342388D991403C979539EEEE1 /* WXResourceRequestHandler.h */,
+				39BFFDEBF4E046CE6277872F53C37323 /* WXResourceResponse.h */,
+				27AAC6F3AD599F16229B84239EB6F3DF /* WXRichText.h */,
+				0D4669B1344023861151719CF74D725F /* WXRootView.h */,
+				272F969F8DCEED7F65701725912F190C /* WXRootViewController.h */,
+				86A9D86A54E3EB4AC9DA48D02A39AC02 /* WXScrollerComponent.h */,
+				7A7FD408ECF21AA2DC91D35AD4F2D12C /* WXScrollerProtocol.h */,
+				06637A73BD1A60895BECB3DFF673CD00 /* WXSDKEngine.h */,
+				FCBA6AD06A7BC6D08E6E94C24C5D8795 /* WXSDKError.h */,
+				0CF2742C00F323617159C505F5CC5CA3 /* WXSDKInstance.h */,
+				58FC63D394CF420C7244601B968D81A4 /* WXSDKInstance+Bridge.h */,
+				053EB75FB4C7652154AE30B5597872EF /* WXSDKInstance+DCExtend.h */,
+				99BEC2943ED4CD928FE24C0174A3F360 /* WXSDKManager.h */,
+				9F47ABB0847929718DF89C11E99D8B3E /* WXTracingManager.h */,
+				4FB0D9D8248F707F6F489105D02A41AC /* WXTracingProtocol.h */,
+				73B6BA64007CB8C996E852AABE07E66D /* WXType.h */,
+				DE24758DF1410EA8682CDC1DD34ED032 /* WXURLRewriteProtocol.h */,
+				3819530B0D7CD2A4658990563C23BD0E /* WXUtility.h */,
+				4A8586F6A0DE0FCBDA83E9A7EA7ABEF7 /* WXValidateProtocol.h */,
+				1B0860860A2E9A9D10E012E4A8036E01 /* WXView.h */,
+				07EF94E21F4A6E3A05FFA5CD9D5FC23D /* WXVoiceOverModule.h */,
+				FE745C3C92E35FFD54DB046C5E67AC97 /* WXWebSocketHandler.h */,
+			);
+			name = weexHeader;
+			path = UniMPSDKOC/Headers/weexHeader;
+			sourceTree = "<group>";
+		};
+		B4F775E8A4764C06635877FCD91D0549 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				F03D9CCFFC20B8232E34481F049861E9 /* Frameworks */,
+			);
+			name = Barcode;
+			sourceTree = "<group>";
+		};
+		B6AB2082E7FA58BCF8D42D774157FFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B2441BD706C498163C7BC8DA7B5AFB /* lame-apple_privacy */,
+				DD07751ACE874AC8AE231BABAEC45667 /* Pods-UniMPSDKOC_Example */,
+				588F05A3D58C96DFE6891A2EDEC001C5 /* UniMPPlugin-CameraResources */,
+				BDA7E35FEA83399A04F835C056A27E28 /* UniMPPlugin-VideoResources */,
+				D1BC67EE54FC165F6DF75F946751FD0A /* UniMPSDKOC-UniMPSDKOCResource */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD96472939E963E373A1D9DAA2E09BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F17A4202F2C1C0AC853CE112F51088 /* liblibAccelerometer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF23BF3070E787D61316C1D5B5B7B160 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				F1C17774298B2ADBEC8EE63D3391DEC0 /* Frameworks */,
+				9E5A30C14C3B983512C7831E6E372995 /* Resources */,
+				C10E9996086E682EEA55434FB67426AD /* Support Files */,
+			);
+			name = lame;
+			path = lame;
+			sourceTree = "<group>";
+		};
+		C10E9996086E682EEA55434FB67426AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59F3E80333FAA54C26D4167F0440F6B /* lame-xcframeworks.sh */,
+				CE6E3F4E8D86C7BBCBD5A05ABEF03BAD /* lame.debug.xcconfig */,
+				7A135EB9B0C56221D27F6EE255216AF4 /* lame.release.xcconfig */,
+				02DD72FE549B8C467C3A2D082F6B0F3F /* ResourceBundle-apple_privacy-lame-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/lame";
+			sourceTree = "<group>";
+		};
+		C982DDF48DEE9D0DCC290DBA80710896 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F36D8370834651FC811DDA386927BAE /* UniMPPlugin */,
+				A1876597909D50162096A35DA6D5D89E /* UniMPSDKOC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C982DDF48DEE9D0DCC290DBA80710896 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94C36E61A4543F5F46FC356F99AE240B /* Pods */,
+				B6AB2082E7FA58BCF8D42D774157FFAE /* Products */,
+				5F09E9788E5F115DE334177ADE2A68F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB13EC92BBAF0A54C7A4502F9B70434F /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1431A0EA79289634B4BE4C982F6D90B1 /* Frameworks */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		F03D9CCFFC20B8232E34481F049861E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA126BA150ED5D0BAC9735AA34AE457D /* libDCUniBarcode.a */,
+				EA553D252DF54AE97B7F0FDD0B6F35A2 /* libDCUniZXing.a */,
+				3B7443B5221C1EFB47FEF0C5B25F55AB /* liblibBarcode.a */,
+				ABA0BDD8087948D4796ADD5D8D05E7A4 /* libuchardet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C17774298B2ADBEC8EE63D3391DEC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39AB972FE69C039EA6F14F0288703E78 /* lame.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26BBE3F2DCCFF83EB4BCA8748D7B461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B4397ACDA68E0254C57B3705BBC068 /* DCUniRecord.framework */,
+				E2DD7F5C1BE4ECA045B177E17808C658 /* liblibMedia.a */,
+				8F5FF81253592B514B97DD9D76E5EF7B /* libopencore-amrnb.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5B57B84E1978BA7EB6CBF7D936B9C9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10DD06CBDA76FBB764EB095D1250B51 /* Pods-UniMPSDKOC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B1404F8A90A2F1DEAD80D6761CD845C /* UniMPPlugin-VideoResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9BEB335A1FF2545015B6ABCF04811F /* Build configuration list for PBXNativeTarget "UniMPPlugin-VideoResources" */;
+			buildPhases = (
+				21E17B46F5AACCC875A116B8FAA432C2 /* Sources */,
+				52C627E51D2FB02EA3C84087616B7549 /* Frameworks */,
+				A6F03E1C398C900020FCEC3110D86AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UniMPPlugin-VideoResources";
+			productName = VideoResources;
+			productReference = BDA7E35FEA83399A04F835C056A27E28 /* UniMPPlugin-VideoResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		15716FD05FD7CE8A8E63AAD86CA09B71 /* UniMPPlugin-CameraResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792971F3A948BAE83B84CB0479FB053 /* Build configuration list for PBXNativeTarget "UniMPPlugin-CameraResources" */;
+			buildPhases = (
+				3B4C313B96CEBACDCAAB7320E6AC7B93 /* Sources */,
+				300AC45DE074466D68F374110AF24ECE /* Frameworks */,
+				55F65CA05E351E1612B544D870C5D920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UniMPPlugin-CameraResources";
+			productName = CameraResources;
+			productReference = 588F05A3D58C96DFE6891A2EDEC001C5 /* UniMPPlugin-CameraResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7CBA25B32FCDA72E56CE646DACC5F535 /* UniMPSDKOC-UniMPSDKOCResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704E6E9761769B3C3B1E1F7DCF7F9467 /* Build configuration list for PBXNativeTarget "UniMPSDKOC-UniMPSDKOCResource" */;
+			buildPhases = (
+				41544FD5B34F065DF920881CD6D40096 /* Sources */,
+				5A2917E45330901DE77094AC02DEF00B /* Frameworks */,
+				E633DC8F09A60F577E8521F3032DAEA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UniMPSDKOC-UniMPSDKOCResource";
+			productName = UniMPSDKOCResource;
+			productReference = D1BC67EE54FC165F6DF75F946751FD0A /* UniMPSDKOC-UniMPSDKOCResource */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B0172769B04EC838AD222E2B5BEFFA38 /* Pods-UniMPSDKOC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2983A3176D93555EF3AA4621657FE5A /* Build configuration list for PBXNativeTarget "Pods-UniMPSDKOC_Example" */;
+			buildPhases = (
+				B5B57B84E1978BA7EB6CBF7D936B9C9F /* Headers */,
+				84765E8E79974F7AF633C33CE4FD6C91 /* Sources */,
+				4CD7150E4AC5074E199994FD0BD1117E /* Frameworks */,
+				3AC81E36AFE89DB31441D1CA26827FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6BA5444273FD97402616DF525DF7843 /* PBXTargetDependency */,
+				E24B957BF6A4D2792F667B0B366AC7A1 /* PBXTargetDependency */,
+				0A45830F08B50C8F3AB654D80F89B267 /* PBXTargetDependency */,
+			);
+			name = "Pods-UniMPSDKOC_Example";
+			productName = Pods_UniMPSDKOC_Example;
+			productReference = DD07751ACE874AC8AE231BABAEC45667 /* Pods-UniMPSDKOC_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F267F822968052D54CE24AF7FBC114E1 /* lame-apple_privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315793A3E643012522FB2D1E6A87FBE3 /* Build configuration list for PBXNativeTarget "lame-apple_privacy" */;
+			buildPhases = (
+				0B4D719C298910CBFFA59C821DDF4B58 /* Sources */,
+				11C8186E81736C55CDA784E516168529 /* Frameworks */,
+				5FD86DDEB4ECB6BCD1E9C316008525AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lame-apple_privacy";
+			productName = apple_privacy;
+			productReference = 44B2441BD706C498163C7BC8DA7B5AFB /* lame-apple_privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B6AB2082E7FA58BCF8D42D774157FFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43436777DDB168A945AE6DA327D6B859 /* lame */,
+				F267F822968052D54CE24AF7FBC114E1 /* lame-apple_privacy */,
+				B0172769B04EC838AD222E2B5BEFFA38 /* Pods-UniMPSDKOC_Example */,
+				9C47CB2FCFDDA8140BFFE33DC7C80E44 /* UniMPPlugin */,
+				15716FD05FD7CE8A8E63AAD86CA09B71 /* UniMPPlugin-CameraResources */,
+				0B1404F8A90A2F1DEAD80D6761CD845C /* UniMPPlugin-VideoResources */,
+				87278E7044503D736AF2574987DDFB5E /* UniMPSDKOC */,
+				7CBA25B32FCDA72E56CE646DACC5F535 /* UniMPSDKOC-UniMPSDKOCResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC81E36AFE89DB31441D1CA26827FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F65CA05E351E1612B544D870C5D920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD3E59DF1BB393D13C0F8554018D891 /* DCMediaEditingController.bundle in Resources */,
+				1C71EB9D0B8FF31A0E44B2D950FD771E /* DCTZImagePickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD86DDEB4ECB6BCD1E9C316008525AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D003011F664E9B6BA0D170955BAB56 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F03E1C398C900020FCEC3110D86AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2ACE5ABD033D6ABDFF15183FAC41D0 /* DCPGVideo.bundle in Resources */,
+				5F81A1C1C58C8014EE57230F5F7A4A79 /* DCSVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E633DC8F09A60F577E8521F3032DAEA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C68393D94B4EDC681579445148CFCAE /* __uniappes6.js in Resources */,
+				2F9E35A0A8E7F15DEE760054A040F5BC /* PandoraApi.bundle in Resources */,
+				8FA3BF89792F79083F5031C270FD9BD0 /* uni-jsframework.js in Resources */,
+				C208B54AA234AB97E9FCC80FD6B23904 /* uni-jsframework-vue3.js in Resources */,
+				0CF952D3A7361F59500F9E861B6CED41 /* unincomponents.ttf in Resources */,
+				D30F518513D2783F6108314FFD7106CC /* weex-polyfill.js in Resources */,
+				7EA5AE6BFE55006974DBAF2929546C1E /* weexUniJs.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F59183AF31C8BF3C843F190D029D873 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/lame/lame-xcframeworks.sh",
+				"${PODS_ROOT}/lame/lame.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/lame/lame.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/lame/lame-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B4D719C298910CBFFA59C821DDF4B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E17B46F5AACCC875A116B8FAA432C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4C313B96CEBACDCAAB7320E6AC7B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41544FD5B34F065DF920881CD6D40096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84765E8E79974F7AF633C33CE4FD6C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3603AC1284217565676F827B7B6D2C08 /* Pods-UniMPSDKOC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A45830F08B50C8F3AB654D80F89B267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lame;
+			target = 43436777DDB168A945AE6DA327D6B859 /* lame */;
+			targetProxy = 8DD5437518D2F3354BF633958C9651D6 /* PBXContainerItemProxy */;
+		};
+		94DBC003985E7638D1216DF72B4E5C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UniMPPlugin-VideoResources";
+			target = 0B1404F8A90A2F1DEAD80D6761CD845C /* UniMPPlugin-VideoResources */;
+			targetProxy = 83581531FEFA2BBB437D8DB7249AB203 /* PBXContainerItemProxy */;
+		};
+		9DD01507351B1F7C41A70F4CD65CBF9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lame;
+			target = 43436777DDB168A945AE6DA327D6B859 /* lame */;
+			targetProxy = 61D87E7D45D03A6F5B52CBD469DFD089 /* PBXContainerItemProxy */;
+		};
+		A6BA5444273FD97402616DF525DF7843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UniMPPlugin;
+			target = 9C47CB2FCFDDA8140BFFE33DC7C80E44 /* UniMPPlugin */;
+			targetProxy = 10262A75116FD37515AB2EC90D2C1EBE /* PBXContainerItemProxy */;
+		};
+		C364F17EF3B4FB493361B43EC8FDCCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lame-apple_privacy";
+			target = F267F822968052D54CE24AF7FBC114E1 /* lame-apple_privacy */;
+			targetProxy = 2C0C2A9AE8700EBBBE3E37CF45DDD645 /* PBXContainerItemProxy */;
+		};
+		DD795435CA86B02125B8F120D54BD617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UniMPPlugin-CameraResources";
+			target = 15716FD05FD7CE8A8E63AAD86CA09B71 /* UniMPPlugin-CameraResources */;
+			targetProxy = 5F6C596FA557147BE8A3341560482DDF /* PBXContainerItemProxy */;
+		};
+		E0FB4A9894B5A0A57AAA23A6132F8662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UniMPSDKOC-UniMPSDKOCResource";
+			target = 7CBA25B32FCDA72E56CE646DACC5F535 /* UniMPSDKOC-UniMPSDKOCResource */;
+			targetProxy = 91E68D2F7985F394A07C886D117835E3 /* PBXContainerItemProxy */;
+		};
+		E24B957BF6A4D2792F667B0B366AC7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UniMPSDKOC;
+			target = 87278E7044503D736AF2574987DDFB5E /* UniMPSDKOC */;
+			targetProxy = E0CB6604F981D67EC30986512ABDDA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077DD51DB89A7ED20F796F2688452E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A135EB9B0C56221D27F6EE255216AF4 /* lame.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A104581CDE9805E00CDB0DC0D78DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A88103DCC392E1432FBB242AE9CBF8 /* UniMPPlugin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPPlugin";
+				IBSC_MODULE = UniMPPlugin;
+				INFOPLIST_FILE = "Target Support Files/UniMPPlugin/ResourceBundle-CameraResources-UniMPPlugin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CameraResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		16B60C5F4C3173EAEB70137CD13F26BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6E3F4E8D86C7BBCBD5A05ABEF03BAD /* lame.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/lame";
+				IBSC_MODULE = lame;
+				INFOPLIST_FILE = "Target Support Files/lame/ResourceBundle-apple_privacy-lame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = apple_privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1763F07FB12BEB91F68BDA94A3031DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56242142E92FC144B237DA676A7AD3DA /* UniMPPlugin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPPlugin";
+				IBSC_MODULE = UniMPPlugin;
+				INFOPLIST_FILE = "Target Support Files/UniMPPlugin/ResourceBundle-VideoResources-UniMPPlugin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = VideoResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2263DA5AA0D8BBBECE27908173A59CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56242142E92FC144B237DA676A7AD3DA /* UniMPPlugin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPPlugin";
+				IBSC_MODULE = UniMPPlugin;
+				INFOPLIST_FILE = "Target Support Files/UniMPPlugin/ResourceBundle-CameraResources-UniMPPlugin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CameraResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		245266E09E18F5708A1FC8C96A9ECB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D430AF4BAAFC81C2EDD6439A400E44 /* UniMPSDKOC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPSDKOC";
+				IBSC_MODULE = UniMPSDKOC;
+				INFOPLIST_FILE = "Target Support Files/UniMPSDKOC/ResourceBundle-UniMPSDKOCResource-UniMPSDKOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UniMPSDKOCResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30E50215FF000669D8E0C6E7DA4534ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBE1963161E0CAFCA5597738C393651 /* UniMPSDKOC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPSDKOC";
+				IBSC_MODULE = UniMPSDKOC;
+				INFOPLIST_FILE = "Target Support Files/UniMPSDKOC/ResourceBundle-UniMPSDKOCResource-UniMPSDKOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UniMPSDKOCResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BC602B5BD6E3CF6AA33F5A12A11D507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A88103DCC392E1432FBB242AE9CBF8 /* UniMPPlugin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UniMPPlugin";
+				IBSC_MODULE = UniMPPlugin;
+				INFOPLIST_FILE = "Target Support Files/UniMPPlugin/ResourceBundle-VideoResources-UniMPPlugin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = VideoResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		54C1DAD396F91171E67A4148A5B4C5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D430AF4BAAFC81C2EDD6439A400E44 /* UniMPSDKOC.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67004D7C2F59635163762466FE11F46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A88103DCC392E1432FBB242AE9CBF8 /* UniMPPlugin.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F5EBD6B0052B93747E0203776ACB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBE1963161E0CAFCA5597738C393651 /* UniMPSDKOC.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95FA7BCED595F87B065D851B4822D819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55985902579E0AB4974A506AEAF7BAA1 /* Pods-UniMPSDKOC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniMPSDKOC_Example/Pods-UniMPSDKOC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniMPSDKOC_Example/Pods-UniMPSDKOC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		993D5F1A6F2C71F7F3E778381C73D42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6E3F4E8D86C7BBCBD5A05ABEF03BAD /* lame.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C75DC8AE2BC93DC14DC4497558CB814A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A135EB9B0C56221D27F6EE255216AF4 /* lame.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/lame";
+				IBSC_MODULE = lame;
+				INFOPLIST_FILE = "Target Support Files/lame/ResourceBundle-apple_privacy-lame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = apple_privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D10CDA37B8A60EB097A623C52890107E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56242142E92FC144B237DA676A7AD3DA /* UniMPPlugin.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F689D5729BB47156F6080CC784742788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B3BEF73FEDDB9D26D6770DA5325DBA /* Pods-UniMPSDKOC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UniMPSDKOC_Example/Pods-UniMPSDKOC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UniMPSDKOC_Example/Pods-UniMPSDKOC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315793A3E643012522FB2D1E6A87FBE3 /* Build configuration list for PBXNativeTarget "lame-apple_privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B60C5F4C3173EAEB70137CD13F26BE /* Debug */,
+				C75DC8AE2BC93DC14DC4497558CB814A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4562A67C3875116BF336C2749C2CC8 /* Build configuration list for PBXAggregateTarget "UniMPPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10CDA37B8A60EB097A623C52890107E /* Debug */,
+				67004D7C2F59635163762466FE11F46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		704E6E9761769B3C3B1E1F7DCF7F9467 /* Build configuration list for PBXNativeTarget "UniMPSDKOC-UniMPSDKOCResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E50215FF000669D8E0C6E7DA4534ED /* Debug */,
+				245266E09E18F5708A1FC8C96A9ECB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BAB11A469FCA1AE27D528F39D4858D /* Build configuration list for PBXAggregateTarget "UniMPSDKOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F5EBD6B0052B93747E0203776ACB0E /* Debug */,
+				54C1DAD396F91171E67A4148A5B4C5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9BEB335A1FF2545015B6ABCF04811F /* Build configuration list for PBXNativeTarget "UniMPPlugin-VideoResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1763F07FB12BEB91F68BDA94A3031DF5 /* Debug */,
+				4BC602B5BD6E3CF6AA33F5A12A11D507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792971F3A948BAE83B84CB0479FB053 /* Build configuration list for PBXNativeTarget "UniMPPlugin-CameraResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2263DA5AA0D8BBBECE27908173A59CCE /* Debug */,
+				0A104581CDE9805E00CDB0DC0D78DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F47A5DD855E84A09BF50FDCF6D6075 /* Build configuration list for PBXAggregateTarget "lame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993D5F1A6F2C71F7F3E778381C73D42C /* Debug */,
+				077DD51DB89A7ED20F796F2688452E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2983A3176D93555EF3AA4621657FE5A /* Build configuration list for PBXNativeTarget "Pods-UniMPSDKOC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F689D5729BB47156F6080CC784742788 /* Debug */,
+				95FA7BCED595F87B065D851B4822D819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

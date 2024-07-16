@@ -1,0 +1,6 @@
+framework module UniMPSDKOC {
+  umbrella header "UniMPSDKOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

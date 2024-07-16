@@ -1,0 +1,6 @@
+framework module Pods_UniMPSDKOC_Example {
+  umbrella header "Pods-UniMPSDKOC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "UniMPPlugin",
+  "version": "0.1.0",
+  "summary": "A short description of UniMPPlugin.",
+  "description": "小程序依赖库",
+  "homepage": "https://github.com/Anan/UniMPPlugin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Anan": "m18620345206@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Anan/UniMPPlugin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "default_subspecs": "Components",
+  "static_framework": true,
+  "swift_versions": "5.5",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "subspecs": [
+    {
+      "name": "Components",
+      "subspecs": [
+        {
+          "name": "Location",
+          "frameworks": "CoreLocation",
+          "vendored_libraries": "UniMPPlugin/Location/*a"
+        },
+        {
+          "name": "Camera",
+          "frameworks": [
+            "AssetsLibrary",
+            "Photos",
+            "CoreMedia",
+            "MetalKit",
+            "GLKit"
+          ],
+          "vendored_libraries": "UniMPPlugin/Camera/*.{a}",
+          "resource_bundles": {
+            "CameraResources": [
+              "UniMPPlugin/Camera/*.{bundle}"
+            ]
+          }
+        },
+        {
+          "name": "Video",
+          "libraries": [
+            "c++",
+            "bz2",
+            "z"
+          ],
+          "frameworks": [
+            "AudioToolbox",
+            "AVFoundation",
+            "CoreGraphics",
+            "CoreMedia",
+            "CoreVideo",
+            "VideoToolbox",
+            "MediaPlayer",
+            "MobileCoreServices",
+            "OpenGLES",
+            "QuartzCore",
+            "UIKit"
+          ],
+          "vendored_libraries": "UniMPPlugin/Video/*.{a}",
+          "vendored_frameworks": "UniMPPlugin/Video/*.{framework,xcframework}",
+          "resource_bundles": {
+            "VideoResources": [
+              "UniMPPlugin/Video/*.{bundle}"
+            ]
+          }
+        },
+        {
+          "name": "Bluetooth",
+          "frameworks": "CoreBluetooth",
+          "vendored_libraries": "UniMPPlugin/Bluetooth/*.a"
+        },
+        {
+          "name": "Barcode",
+          "libraries": "iconv",
+          "frameworks": [
+            "AVFoundation",
+            "ImageIO",
+            "CoreVideo",
+            "CoreMedia"
+          ],
+          "vendored_libraries": "UniMPPlugin/Barcode/*.a"
+        },
+        {
+          "name": "Audio",
+          "frameworks": "AVFoundation",
+          "vendored_libraries": "UniMPPlugin/Audio/*.a",
+          "vendored_frameworks": "UniMPPlugin/Audio/*.{framework, xcframework}",
+          "dependencies": {
+            "lame": [
+
+            ]
+          }
+        },
+        {
+          "name": "Accelerometer",
+          "frameworks": "Accelerate",
+          "vendored_libraries": "UniMPPlugin/Accelerometer/*.a"
+        },
+        {
+          "name": "SQLite",
+          "libraries": "sqlite3.0",
+          "vendored_libraries": "UniMPPlugin/SQLite/*.a"
+        },
+        {
+          "name": "Zip",
+          "vendored_libraries": "UniMPPlugin/Zip/*.a"
+        }
+      ]
+    }
+  ],
+  "swift_version": "5.5"
+}

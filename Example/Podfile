@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'UniMPSDKOC_Example' do
+
+  pod 'UniMPSDKOC', :path => '../'
+  pod 'UniMPPlugin', :path => '../../UniMPPlugin'
+
+#  target 'UniMPSDKOC_Tests' do
+#    inherit! :search_paths
+#
+#    pod 'FBSnapshotTestCase'
+#  end
+end
